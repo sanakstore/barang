@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="2118266757"
-KEY="6561892159:AAEfW_wh32WA3KzJDVrvFDDbtazjcmA2Cc4"
+CHATID="-1002117725897"
+KEY="6123951004:AAFMeqbK8n2HEVyCnlUKlvnFgpCpt86wbaA"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
@@ -735,9 +735,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user oceantestdigital@gmail.com
-from oceantestdigital@gmail.com
-password jokerman77 
+user backupsmtp93@gmail.com
+from backupsmtp93@gmail.com
+password sdallofkbpuhbtoa
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
